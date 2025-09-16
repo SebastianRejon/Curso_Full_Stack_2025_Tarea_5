@@ -1,0 +1,47 @@
+:root{
+  --btn-bg: #5d28a7;       /*color de botón */
+  --btn-bg-hover: #883b21;
+  --input-border: hsl(43, 100%, 50%); /* color de bordes */
+  --input-focus: #b30015;  /* focus */
+}
+
+.form-control {
+  border: 2px solid var(--input-border);
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.75rem;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: var(--input-focus);
+  box-shadow: 0 0 5px rgba(0,123,255,0.3);
+}
+
+.btn-custom {
+  background-color: var(--btn-bg);
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.35rem;
+  font-size: 1rem;
+  transition: background-color 0.2s;
+}
+
+.btn-custom:hover {
+  background-color: var(--btn-bg-hover);
+}
+.btn btn-custom btn-lg{
+  margin:20px;
+}
+/* clases modificadas - agregadas para modo oscuro y alertas */
+.especial{
+  margin:1rem 0;
+}
+.invalidoNombre{
+  display: none;
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+  padding:0.5rem 0; 
+}
