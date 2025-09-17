@@ -45,3 +45,17 @@
   text-align: center;
   padding:0.5rem 0; 
 }
+.invalidoMensaje{
+  display: none;
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+  padding:0.5rem 0; 
+}
+.invalidoCorreo{
+  display: none;
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+  padding:0.5rem 0; 
+}
